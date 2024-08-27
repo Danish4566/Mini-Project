@@ -1,0 +1,22 @@
+img{
+    display: block;
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#output{
+    margin: 0 5px;
+}
+#imgcrop{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}

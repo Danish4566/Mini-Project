@@ -1,0 +1,17 @@
+{
+  "name": "img-cropper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cropper": "^4.1.0",
+    "cropperjs": "^1.6.1",
+    "js": "^0.1.0"
+  }
+}
