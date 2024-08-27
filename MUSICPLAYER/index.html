@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e70ef9d47.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="aa.jpg" alt="" class="song-img">
+            <h1>Depascita</h1>
+            <p>Luis Fonsi Ft.Puetro Ricron</p>
+
+            <audio  id="song">
+                <source src="Koi Si (slowed)_Ohde Ikk Vi Hanju Aaya Na _Afsana Khan(MP3_160K).mp3" type="audio/mp3">
+            </audio>
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div>
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div onclick="playpause()">
+                    <i id="ctrlicon" class="fa-solid fa-play"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <i class="fa-solid fa-pause"></i> -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>
