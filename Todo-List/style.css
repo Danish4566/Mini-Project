@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f7fa;
+   margin-top: 50px;
+  }
+  
+  .todo-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px 35px;
+    width: 400px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-title {
+    font-size: 26px;
+    color: #344055;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .todo-title span {
+    margin-left: 8px;
+    font-size: 28px;
+  }
+  
+  .todo-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f0f4f8;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .todo-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #344055;
+  }
+  
+  .todo-input::placeholder {
+    color: #b0b0b0;
+    font-weight: 500;
+  }
+  
+  .todo-add-btn {
+    background-color: #ff6b6b;
+    border: none;
+    color: #fff;
+    padding: 16px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 0px 12px 12px 0px;
+  }
+  
+  .todo-add-btn:hover {
+    background-color: #ff3b3b;
+    transform: scale(1.05);
+  }
+  
+  #list-container {
+    margin-top: 15px;
+  }
+  
+  .todo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f4f8;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 18px;
+    color: #344055;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .todo-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    background:rgb(204, 240, 151);
+    color: #fff;
+  }
+  
+  
+  .todo-list li .actions span:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  .todo-list li .actions .delete {
+    color: #ff6b6b;
+  }
+  
+  .todo-list li .actions .delete:hover {
+    color: #ff3b3b;
+  }
+  
+  
+  
